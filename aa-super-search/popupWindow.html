@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>City Code Search</title>
+  <title>Flight Search</title>
 </head>
 <body>
-  <h1>Enter Your City Code</h1>
-  <input type="text" id="cityCode" placeholder="Enter City Code">
-  <button id="searchButton">Continue</button>
-  <script src="popupScript.js"></script>
+  <div id="input-container">
+    <label for="origins">Origins:</label>
+    <input type="text" id="origins" name="origins" placeholder="Enter City Codes"><br>
+    <label for="destinations">Destinations:</label>
+    <input type="text" id="destinations" name="destinations" placeholder="Enter City Codes"><br>
+
+    <label for="travelDate">Travel Date:</label>
+    <input type="travelDate" id="travelDate" name="travelDate" placeholder = "format: 2024-12-07"><br><br>
+
+    <button id="searchButton">Search</button>
+    <script src="popupScript.js"></script>
+  </div>
 </body>
 </html>
