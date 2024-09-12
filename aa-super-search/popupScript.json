@@ -1,5 +1,0 @@
-document.getElementById('searchButton').addEventListener('click', function() {
-  const cityCode = document.getElementById('cityCode').value;
-  const url = `https://www.google.com/search?q=${cityCode}`;
-  chrome.tabs.create({ url: url });
-});
